@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+body{
+ 
+}
+
+
+.about-start{
+    background-image: url('../Image/mainServicePageBg.jpg');
+    height: 500px;
+    width: 100%;
+    transition: all 0.7s ease-in 0s;
+    box-shadow: rgb(0 0 20 / 40%) 0px 0px 0px 2000px inset;
+    border-radius: 0px 0px 150px 150px;
+}
+.about-1{
+  
+    margin: 30px;
+    padding: 5px;
+}
+.about-1 h2{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(63, 67, 104);
+}
+.about-1 p{
+    text-align: center;
+    padding: 3px;
+    color: rgb(0, 0, 0);
+}
+
+
+.about{
+    margin-top: -80px;
+}
+
+.about-item{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: white;
+    padding: 30px 10px;
+    box-shadow: 0 0 9px rgba(0,0,0.6);
+    border-radius: 15px;
+}
+
+
+.about-item i{
+    font-size: 43px;
+    margin: 0;
+}
+
+.about-item h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+
+.about-item hr{
+    width: 46px;
+    height: 3px;
+    background-color: #5fbff9;
+    margin: 0 auto;
+    border: none;
+    text-align: center;
+}
+
+
+
+
+.about-item:hover i{
+    transform: translateY(-20px);
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover hr{
+    transition: all 400ms ease-in-out;
+}
+
+footer{
+    background: #212226;
+    padding: 20px;
+}
+footer p{
+    color: #fff;
+}
+
+
+
+
+/* about section styling */
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.card{
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.about .about-content .left{
+    width: 45%;
+}
+.about .about-content .left img{
+    height: auto;
+    width: 500px;
+   
+    border-radius: 6px;
+}
+.about .about-content .right{
+    width: 45%;
+}
+.about .about-content .right .text{
+    font-size: 35px;
+    
+    font-weight: 600;
+    color: rgb(63, 67, 104);
+ 
+}
+
+.about .about-content .right p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+
+.about .about-content
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+.about .about-content1 .left{
+    width: 45%;
+}
+.about .about-content1 .left img{
+    height: auto;
+    width: 500px;
+   
+    border-radius: 6px;
+}
+.about .about-content1 .right{
+    width: 40%;
+}
+.about .about-content1 .right .text{
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(63, 67, 104);
+ 
+}
+
+.about .about-content1 .right p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+
+.about .about-content1
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}

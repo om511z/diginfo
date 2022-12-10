@@ -1,0 +1,1 @@
+export const DigiTech_Basic_Contact_Api = '/newsettler';
